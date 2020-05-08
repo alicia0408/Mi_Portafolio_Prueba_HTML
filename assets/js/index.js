@@ -10,7 +10,7 @@ window.scrollBy({
     behavior: 'smooth'
 });
 
-document.querySelector('#description', '#my-experience', '#my-jobs').scrollIntoView({
+document.querySelector('#parrafo', '#experiencia', '#trabajos').scrollIntoView({
     behavior: 'smooth'
 });
 
