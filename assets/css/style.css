@@ -36,7 +36,6 @@ body {
 
 .texto_principal_01 {
     text-transform: uppercase;
-    /* esto es para poner toda la letra en mayuscula */
     color: #FFF;
     width: 100%;
     height: 100%;
@@ -69,7 +68,7 @@ body {
     border: 2px solid #fff;
 }
 
-.description-personal {
+.parrafo_01 {
     display: none;
 }
 
@@ -285,7 +284,7 @@ body {
     .magdalena {
         font-size: 72px;
     }
-    .description {
+    .parrafo {
         display: flex;
         flex-direction: column;
         margin-top: 100px;
@@ -293,11 +292,11 @@ body {
         font-weight: 400;
         justify-content: center;
     }
-    .description-personal {
+    .parrafo_01 {
         display: flex;
         flex-direction: column;
     }
-    .description-persona-title {
+    .texto_titulo {
         font-weight: 700;
         display: flex;
         justify-content: center;
@@ -305,15 +304,14 @@ body {
         text-align: center;
         padding: 0 100px;
     }
-    .line-2 {
+    .linea_02 {
         width: 100px;
         border: 1.5px solid #000;
     }
-    .paragraph-description {
+    .parrafo_descriptivo {
         margin-top: 30px;
     }
-    .paragraph-1,
-    .paragraph-2 {
+    .text_01 {
         line-height: 30px;
     }
     .my-experience-title {
@@ -322,7 +320,10 @@ body {
         display: flex;
         justify-content: center;
     }
-    .line-2 {
+    .text_02 {
+        line-height: 30px;
+    }
+    .linea_02 {
         display: flex;
     }
     .my-experience-icons {
